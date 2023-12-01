@@ -1,0 +1,9 @@
+version: "3"
+services:
+  beer-viewer:
+    container_name: beer-viewer
+    image: beer-viewer
+    build: "."
+    network_mode: "host"
+    env_file: ".env"
+

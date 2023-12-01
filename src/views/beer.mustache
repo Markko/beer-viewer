@@ -1,0 +1,23 @@
+{{>header}}
+			<h1 class="text-light">Beers On Tap</h1>
+			<div class="row">
+			{{#ontap}}
+				<div class="col">
+					<div class="card" style="background: {{colour}}" title="{{description}}">
+						<div class="card-header" >
+							<div class="tap-number">#{{tap}}</div>	
+							<img class="card-img-top" src="{{#icon}}{{icon}}{{/icon}}{{^icon}}/img/tap.webp{{/icon}}" alt="Icon of a beer tap on a background indicating the colour of the beer">
+						</div>
+						<div class="card-body">
+							<h2 class="card-title">{{name}}</h5>
+							<h3 class="card-subtitle text-muted">{{style}}</h3>
+							<p class="card-text">{{#abv}}{{abv}}% abv{{/abv}}{{#ibu}} {{ibu}} IBU{{/ibu}}</p>
+							<div id="tap-{{tap}}-description" class="card-description">
+								<p class="card-text">{{description}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			{{/ontap}}
+			</div>
+{{>footer}}
