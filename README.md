@@ -1,5 +1,6 @@
 # beer-viewer
 A homebrew beer menu
+![image](https://github.com/Markko/beer-viewer/assets/1522312/1548c040-954e-452c-b36d-e3f58b0cb6f7)
 
 
 ## Environment Variables
