@@ -16,7 +16,7 @@
     "express": "^4.18.2",
     "mustache-express": "^1.3.0",
     "pg": "^8.11.3",
-    "esbuild": "^0.19.8"
+    "esbuild": "^0.19.9"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
